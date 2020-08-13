@@ -59,7 +59,7 @@ module.exports = {
 					.setColor("#7289da")
 					.addField("English String", str.string)
 					.addField("Context", str.context)
-					.setDescription(`Please translate the following string into ${translationFile.settings.english}. You have 5 minutes to respond, send \`cancel\` to cancel or \`skip\` to skip.`);
+					.setDescription(`Please translate the following string into ${translationFile.settings.english}. You have 5 minutes to respond, send \`cancel\` to cancel or \`skip\` to skip.\nNeed help? Check this [guide](https://discord.com/channels/566002482166104066/705521164562464890/742881648692953119)!`);
 
 				if (str.replaced) {
 					let replacedArr = [];
